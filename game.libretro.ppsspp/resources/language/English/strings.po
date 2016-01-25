@@ -1,0 +1,129 @@
+# XBMC Media Center language file
+# Addon Name: @name@
+# Addon id: @id@
+# Addon Provider: @authors@
+msgid ""
+msgstr ""
+"Project-Id-Version: Libretro Clients\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2014-05-30 17:00+8\n"
+"PO-Revision-Date: 2014-05-30 17:00+8\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Locked CPU Speed"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Rendering Mode"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Auto Frameskip"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Framerate limit"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Force Max FPS"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio latency"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Internal Resolution"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Output Resolution"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Confirmation Button"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Fast Memory (Speedhack)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Set Rounding Mode"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Block Transfer GPU"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Texture Scaling Level"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Texture Scaling Type"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Anisotropic Filtering"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Texture Deposterize"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Internal Shader"
+msgstr ""
+
+msgctxt "#30021"
+msgid "GPU Hardware T&L"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Vertex Cache (Speedhack)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Prescale UV (Speedhack)"
+msgstr ""
+
+msgctxt "#30024"
+msgid "IO Threading"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Unsafe FuncReplacements"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Sound Speedhack"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Threaded input hack"
+msgstr ""
