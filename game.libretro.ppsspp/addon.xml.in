@@ -8,11 +8,7 @@
 		<import addon="game.controller.ps" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-			library_android="game.libretro.ppsspp.so"
-			library_linux="game.libretro.ppsspp.so"
-			library_osx="game.libretro.ppsspp.dylib"
-			library_windx="game.libretro.ppsspp.dll"
-			library_wingl="game.libretro.ppsspp.dll">
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>PSP</platforms>
 		<extensions>psp</extensions>
 		<supports_vfs>true</supports_vfs>
@@ -21,6 +17,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">ppsspp v1.0.1</summary>
 		<description>Source: https://github.com/libretro/libretro-ppsspp</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 	</extension>
 </addon>
