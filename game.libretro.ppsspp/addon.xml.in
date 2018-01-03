@@ -18,7 +18,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">PSP (PPSSPP) v1.0.1-git</summary>
-		<description>Source: https://github.com/libretro/libretro-ppsspp
+		<description>PPSSPP is a fast and portable PSP emulator written in C++.
+
+Originally created by Henrik Rydgård.
 
 Supported files: .elf, .iso, .cso, .prx, .pbp</description>
 		<license>GPLv2</license>
