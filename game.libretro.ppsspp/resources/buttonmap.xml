@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<buttonmap>
-	<controller id="game.controller.ps" type="analog">
-		<feature name="cross" mapto="b"/>
-		<feature name="circle" mapto="a"/>
-		<feature name="square" mapto="y"/>
-		<feature name="triangle" mapto="x"/>
-		<feature name="start" mapto="start"/>
-		<feature name="select" mapto="select"/>
-		<feature name="up" mapto="up"/>
-		<feature name="down" mapto="down"/>
-		<feature name="right" mapto="right"/>
-		<feature name="left" mapto="left"/>
-		<feature name="leftbumper" mapto="l"/>
-		<feature name="rightbumper" mapto="r"/>
-		<feature name="leftstick" mapto="leftstick"/>
+<buttonmap version="2">
+	<controller id="game.controller.psp" type="RETOR_DEVICE_ANALOG">
+		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="triangle" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="analogstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
 	</controller>
 </buttonmap>
