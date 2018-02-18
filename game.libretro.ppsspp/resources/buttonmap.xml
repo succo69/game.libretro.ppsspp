@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buttonmap version="2">
-	<controller id="game.controller.psp" type="RETOR_DEVICE_ANALOG">
+	<controller id="game.controller.psp" type="RETRO_DEVICE_ANALOG">
 		<feature name="cross" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
 		<feature name="circle" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
 		<feature name="square" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
