@@ -37,19 +37,19 @@ msgid "Confirmation Button"
 msgstr ""
 
 msgctxt "#30005"
-msgid "CPU Core"
+msgid "Internal Cheats Support"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Fast Memory (Speedhack)"
+msgid "CPU Core"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Force Max FPS"
+msgid "Fast Memory (Speedhack)"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Framerate limit"
+msgid "Force Max FPS"
 msgstr ""
 
 msgctxt "#30009"
@@ -61,70 +61,58 @@ msgid "GPU Hardware T&L"
 msgstr ""
 
 msgctxt "#30011"
-msgid "Internal Resolution "
+msgid "Internal Resolution"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Internal Shader"
-msgstr ""
-
-msgctxt "#30013"
 msgid "Language"
 msgstr ""
 
-msgctxt "#30014"
+msgctxt "#30013"
 msgid "Locked CPU Speed"
 msgstr ""
 
-msgctxt "#30015"
-msgid "Output Resolution (restart)"
-msgstr ""
-
-msgctxt "#30016"
-msgid "Prescale UV (Speedhack)"
-msgstr ""
-
-msgctxt "#30017"
+msgctxt "#30014"
 msgid "Rendering Mode"
 msgstr ""
 
-msgctxt "#30018"
+msgctxt "#30015"
 msgid "IO Threading"
 msgstr ""
 
-msgctxt "#30019"
-msgid "Set Rounding Mode"
-msgstr ""
-
-msgctxt "#30020"
+msgctxt "#30016"
 msgid "Sound Speedhack"
 msgstr ""
 
-msgctxt "#30021"
+msgctxt "#30017"
 msgid "Anisotropic Filtering"
 msgstr ""
 
-msgctxt "#30022"
+msgctxt "#30018"
 msgid "Texture Deposterize"
 msgstr ""
 
-msgctxt "#30023"
+msgctxt "#30019"
+msgid "Texture Filtering"
+msgstr ""
+
+msgctxt "#30020"
 msgid "Texture Scaling Level"
 msgstr ""
 
-msgctxt "#30024"
+msgctxt "#30021"
 msgid "Texture Scaling Type"
 msgstr ""
 
-msgctxt "#30025"
-msgid "Threaded input hack"
+msgctxt "#30022"
+msgid "True Color Depth"
 msgstr ""
 
-msgctxt "#30026"
+msgctxt "#30023"
 msgid "Unsafe FuncReplacements"
 msgstr ""
 
-msgctxt "#30027"
+msgctxt "#30024"
 msgid "Vertex Cache (Speedhack)"
 msgstr ""
 

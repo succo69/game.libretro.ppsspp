@@ -1,1 +1,1 @@
-ppsspp https://github.com/libretro/libretro-ppsspp master
+ppsspp https://github.com/libretro/ppsspp master
