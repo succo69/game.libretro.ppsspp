@@ -10,7 +10,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>PSP</platforms>
-		<extensions>elf|iso|cso|prx|pbp</extensions>
+		<extensions></extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
@@ -18,9 +18,7 @@
 		<summary lang="en_GB">Sony - PlayStation Portable (PPSSPP)</summary>
 		<description lang="en_GB">PPSSPP is a fast and portable PSP emulator written in C++.
 
-Originally created by Henrik Rydgård.
-
-Supported files: .elf, .iso, .cso, .prx, .pbp</description>
+Originally created by Henrik Rydgård.</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 	</extension>
