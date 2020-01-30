@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.5)
 project(ppsspp)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
@@ -22,7 +22,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL linux)
   set(BUILD_COMMAND $(MAKE) -C libretro -f Makefile  platform=unix ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL osx)
   set(BUILD_COMMAND $(MAKE) -C libretro -f Makefile  platform=osx ${LIBRETRO_DEBUG} GIT_VERSION=)
-elseif(CORE_SYSTEM_NAME STREQUAL ios)
+elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedded)
   set(LIBRETRO_SONAME ppsspp_libretro_ios${CMAKE_SHARED_LIBRARY_SUFFIX})
   set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE) -C libretro -f Makefile  platform=ios ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL android)
@@ -57,7 +57,4 @@ externalproject_add(${PROJECT_NAME}
 
 # install the generated shared library
 install(FILES ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${LIBRETRO_SONAME}
-        DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
-
-# write the config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-${PROJECT_NAME}-config.cmake "set(${PROJECT_NAME_UC}_LIB ${CMAKE_INSTALL_PREFIX}/lib/${LIBRETRO_SONAME})")
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/libretro RENAME ppsspp_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})

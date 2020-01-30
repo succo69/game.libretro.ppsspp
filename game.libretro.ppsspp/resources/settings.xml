@@ -8,21 +8,21 @@
 		<setting label="30005" type="select" id="ppsspp_cheats" values="disabled|enabled" default="disabled"/>
 		<setting label="30006" type="select" id="ppsspp_cpu_core" values="jit|IR jit|interpreter" default="jit"/>
 		<setting label="30007" type="select" id="ppsspp_fast_memory" values="enabled|disabled" default="enabled"/>
-		<setting label="30008" type="select" id="ppsspp_force_max_fps" values="disabled|enabled" default="disabled"/>
-		<setting label="30009" type="select" id="ppsspp_frameskip" values="0|1|2|3|4|5|6|7|8|9" default="0"/>
+		<setting label="30008" type="select" id="ppsspp_frameskip" values="0|1|2|3|4|5|6|7|8|9" default="0"/>
+		<setting label="30009" type="select" id="ppsspp_frameskiptype" values="0|1|2|3|4|5|6|7|8|9" default="0"/>
 		<setting label="30010" type="select" id="ppsspp_gpu_hardware_transform" values="enabled|disabled" default="enabled"/>
 		<setting label="30011" type="select" id="ppsspp_internal_resolution" values="480x272|960x544|1440x816|1920x1088|2400x1360|2880x1632|3360x1904|3840x2176|4320x2448|4800x2720" default="480x272"/>
-		<setting label="30012" type="select" id="ppsspp_language" values="automatic|english|japanese|french|spanish|german|italian|dutch|portuguese|russian|korean|chinese_traditional|chinese_simplified" default="automatic"/>
-		<setting label="30013" type="select" id="ppsspp_locked_cpu_speed" values="off|222MHz|266MHz|333MHz" default="off"/>
-		<setting label="30014" type="select" id="ppsspp_rendering_mode" values="buffered|nonbuffered" default="buffered"/>
-		<setting label="30015" type="select" id="ppsspp_separate_io_thread" values="disabled|enabled" default="disabled"/>
-		<setting label="30016" type="select" id="ppsspp_sound_speedhack" values="disabled|enabled" default="disabled"/>
+		<setting label="30012" type="select" id="ppsspp_io_timing_method" values="Fast|Host|Simulate UMD delays" default="Fast"/>
+		<setting label="30013" type="select" id="ppsspp_language" values="automatic|english|japanese|french|spanish|german|italian|dutch|portuguese|russian|korean|chinese_traditional|chinese_simplified" default="automatic"/>
+		<setting label="30014" type="select" id="ppsspp_locked_cpu_speed" values="off|222MHz|266MHz|333MHz" default="off"/>
+		<setting label="30015" type="select" id="ppsspp_rendering_mode" values="buffered|nonbuffered" default="buffered"/>
+		<setting label="30016" type="select" id="ppsspp_separate_io_thread" values="disabled|enabled" default="disabled"/>
 		<setting label="30017" type="select" id="ppsspp_texture_anisotropic_filtering" values="off|1x|2x|4x|8x|16x" default="off"/>
 		<setting label="30018" type="select" id="ppsspp_texture_deposterize" values="disabled|enabled" default="disabled"/>
 		<setting label="30019" type="select" id="ppsspp_texture_filtering" values="auto|nearest|linear|linear(FMV)" default="auto"/>
-		<setting label="30020" type="select" id="ppsspp_texture_scaling_level" values="1|2|3|4|5|0" default="1"/>
-		<setting label="30021" type="select" id="ppsspp_texture_scaling_type" values="xbrz|hybrid|bicubic|hybrid_bicubic" default="xbrz"/>
-		<setting label="30022" type="select" id="ppsspp_true_color" values="enabled|disabled" default="enabled"/>
+		<setting label="30020" type="select" id="ppsspp_texture_replacement" values="disabled|enabled" default="disabled"/>
+		<setting label="30021" type="select" id="ppsspp_texture_scaling_level" values="1|2|3|4|5|0" default="1"/>
+		<setting label="30022" type="select" id="ppsspp_texture_scaling_type" values="xbrz|hybrid|bicubic|hybrid_bicubic" default="xbrz"/>
 		<setting label="30023" type="select" id="ppsspp_unsafe_func_replacements" values="enabled|disabled" default="enabled"/>
 		<setting label="30024" type="select" id="ppsspp_vertex_cache" values="enabled|disabled" default="enabled"/>
 	</category>

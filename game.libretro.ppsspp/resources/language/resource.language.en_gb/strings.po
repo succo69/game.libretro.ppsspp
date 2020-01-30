@@ -49,11 +49,11 @@ msgid "Fast Memory (Speedhack)"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Force Max FPS"
+msgid "Frameskip"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Frameskip"
+msgid "Frameskip Type"
 msgstr ""
 
 msgctxt "#30010"
@@ -65,23 +65,23 @@ msgid "Internal Resolution"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Language"
+msgid "IO Timing Method"
 msgstr ""
 
 msgctxt "#30013"
-msgid "Locked CPU Speed"
+msgid "Language"
 msgstr ""
 
 msgctxt "#30014"
-msgid "Rendering Mode"
+msgid "Locked CPU Speed"
 msgstr ""
 
 msgctxt "#30015"
-msgid "IO Threading"
+msgid "Rendering Mode"
 msgstr ""
 
 msgctxt "#30016"
-msgid "Sound Speedhack"
+msgid "IO Threading"
 msgstr ""
 
 msgctxt "#30017"
@@ -97,15 +97,15 @@ msgid "Texture Filtering"
 msgstr ""
 
 msgctxt "#30020"
-msgid "Texture Scaling Level"
+msgid "Texture Replacement"
 msgstr ""
 
 msgctxt "#30021"
-msgid "Texture Scaling Type"
+msgid "Texture Scaling Level"
 msgstr ""
 
 msgctxt "#30022"
-msgid "True Color Depth"
+msgid "Texture Scaling Type"
 msgstr ""
 
 msgctxt "#30023"
@@ -115,4 +115,3 @@ msgstr ""
 msgctxt "#30024"
 msgid "Vertex Cache (Speedhack)"
 msgstr ""
-

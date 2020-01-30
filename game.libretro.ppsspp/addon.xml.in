@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.ppsspp"
 		name="Sony - PlayStation Portable (PPSSPP)"
-		version="1.0.0"
+		version="0.0.1.1"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -23,5 +23,6 @@ Originally created by Henrik Rydgård.
 Supported files: .elf, .iso, .cso, .prx, .pbp</description>
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.ppsspp</source>
 	</extension>
 </addon>
