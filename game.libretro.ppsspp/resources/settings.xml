@@ -16,14 +16,13 @@
 		<setting label="30013" type="select" id="ppsspp_language" values="automatic|english|japanese|french|spanish|german|italian|dutch|portuguese|russian|korean|chinese_traditional|chinese_simplified" default="automatic"/>
 		<setting label="30014" type="select" id="ppsspp_locked_cpu_speed" values="off|222MHz|266MHz|333MHz" default="off"/>
 		<setting label="30015" type="select" id="ppsspp_rendering_mode" values="buffered|nonbuffered" default="buffered"/>
-		<setting label="30016" type="select" id="ppsspp_separate_io_thread" values="disabled|enabled" default="disabled"/>
-		<setting label="30017" type="select" id="ppsspp_texture_anisotropic_filtering" values="off|1x|2x|4x|8x|16x" default="off"/>
-		<setting label="30018" type="select" id="ppsspp_texture_deposterize" values="disabled|enabled" default="disabled"/>
-		<setting label="30019" type="select" id="ppsspp_texture_filtering" values="auto|nearest|linear|linear(FMV)" default="auto"/>
-		<setting label="30020" type="select" id="ppsspp_texture_replacement" values="disabled|enabled" default="disabled"/>
-		<setting label="30021" type="select" id="ppsspp_texture_scaling_level" values="1|2|3|4|5|0" default="1"/>
-		<setting label="30022" type="select" id="ppsspp_texture_scaling_type" values="xbrz|hybrid|bicubic|hybrid_bicubic" default="xbrz"/>
-		<setting label="30023" type="select" id="ppsspp_unsafe_func_replacements" values="enabled|disabled" default="enabled"/>
-		<setting label="30024" type="select" id="ppsspp_vertex_cache" values="enabled|disabled" default="enabled"/>
+		<setting label="30016" type="select" id="ppsspp_texture_anisotropic_filtering" values="off|1x|2x|4x|8x|16x" default="off"/>
+		<setting label="30017" type="select" id="ppsspp_texture_deposterize" values="disabled|enabled" default="disabled"/>
+		<setting label="30018" type="select" id="ppsspp_texture_filtering" values="auto|nearest|linear|linear(FMV)" default="auto"/>
+		<setting label="30019" type="select" id="ppsspp_texture_replacement" values="disabled|enabled" default="disabled"/>
+		<setting label="30020" type="select" id="ppsspp_texture_scaling_level" values="1|2|3|4|5|0" default="1"/>
+		<setting label="30021" type="select" id="ppsspp_texture_scaling_type" values="xbrz|hybrid|bicubic|hybrid_bicubic" default="xbrz"/>
+		<setting label="30022" type="select" id="ppsspp_unsafe_func_replacements" values="enabled|disabled" default="enabled"/>
+		<setting label="30023" type="select" id="ppsspp_vertex_cache" values="enabled|disabled" default="enabled"/>
 	</category>
 </settings>

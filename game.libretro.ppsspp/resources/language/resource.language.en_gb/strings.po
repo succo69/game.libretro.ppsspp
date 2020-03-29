@@ -61,7 +61,7 @@ msgid "GPU Hardware T&L"
 msgstr ""
 
 msgctxt "#30011"
-msgid "Internal Resolution"
+msgid "Internal Resolution (restart)"
 msgstr ""
 
 msgctxt "#30012"
@@ -81,37 +81,33 @@ msgid "Rendering Mode"
 msgstr ""
 
 msgctxt "#30016"
-msgid "IO Threading"
-msgstr ""
-
-msgctxt "#30017"
 msgid "Anisotropic Filtering"
 msgstr ""
 
-msgctxt "#30018"
+msgctxt "#30017"
 msgid "Texture Deposterize"
 msgstr ""
 
-msgctxt "#30019"
+msgctxt "#30018"
 msgid "Texture Filtering"
 msgstr ""
 
-msgctxt "#30020"
+msgctxt "#30019"
 msgid "Texture Replacement"
 msgstr ""
 
-msgctxt "#30021"
+msgctxt "#30020"
 msgid "Texture Scaling Level"
 msgstr ""
 
-msgctxt "#30022"
+msgctxt "#30021"
 msgid "Texture Scaling Type"
 msgstr ""
 
-msgctxt "#30023"
+msgctxt "#30022"
 msgid "Unsafe FuncReplacements"
 msgstr ""
 
-msgctxt "#30024"
+msgctxt "#30023"
 msgid "Vertex Cache (Speedhack)"
 msgstr ""
